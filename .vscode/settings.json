@@ -20,5 +20,7 @@
     "todo-tree.tree.showBadges": false,
     // 成功配置后，将 compile_commands.json 复制到此位置
     "cmake.copyCompileCommands": "",
+    "cmake.generator": "Ninja",
     "marscode.chatLanguage": "cn",
+    // "cmake.generator": "MinGW Makefiles"
 }

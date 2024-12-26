@@ -27,6 +27,7 @@ add_subdirectory(Middlewares)
 
 # 链接目标与其他库
 target_link_libraries(${EXECUTABLE_NAME} BSP Drivers freertos_kernel)
+message(STATUS "CMAKE_C_COMPILER: ${CMAKE_C_COMPILER}")
 
 # ===============================================================================
 

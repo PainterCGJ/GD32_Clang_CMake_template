@@ -15,7 +15,7 @@
         "cmake.parallelJobs": 12,
         "cmake.debugConfig": {
             "stopAtEntry": true,
-            "miDebuggerPath": "C:/code_configuration/EmbeddedBuilder_v1.4.7.26843/Tools/GNU Tools ARM Embedded/xpack-arm-none-eabi-gcc/9.2.1-1.1/bin/arm-none-eabi-gdb.exe",
+            "miDebuggerPath": "/opt/gcc-arm-none-eabi-10.3-2021.10/bin",
             "args": [
                 "--interpreter=mi2"
             ],
@@ -40,7 +40,7 @@
                 "command": "openocd",
                 "args": [
                     "-s",
-                    "C:/code_configuration/EmbeddedBuilder_v1.4.7.26843/Tools/OpenOCD/xpack-openocd-0.11.0-3/scripts/",
+                    "/home/painter/Documents/EmbeddedBuilder_v1.4.7.26843/Tools/OpenOCD/xpack-openocd-0.11.0-3/scripts/",
                     "-f",
                     "C:/Users/wang.yunlong9/.vscode/extensions/marus25.cortex-debug-1.12.1/support/openocd-helpers.tcl",
                     "-f",
